@@ -1,0 +1,32 @@
+
+***********************************
+2018-10-16 15:58:07
+error-level 2 : Invalid argument supplied for foreach()
+/Users/sunqibo/www/my/myFramework/app/models/Article.php:20
+***********************************
+
+***********************************
+2018-10-16 15:59:12
+error-level 2 : Invalid argument supplied for foreach()
+/Users/sunqibo/www/my/myFramework/app/models/Article.php:20
+***********************************
+
+***********************************
+2018-10-16 15:59:29
+error-level 2 : Invalid argument supplied for foreach()
+/Users/sunqibo/www/my/myFramework/app/models/Article.php:20
+***********************************
+
+***********************************
+2018-10-16 15:59:34
+error-level 1 : Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'my_frameworks' in /Users/sunqibo/www/my/myFramework/app/models/Article.php:16
+Stack trace:
+#0 /Users/sunqibo/www/my/myFramework/app/models/Article.php(16): PDO->__construct('mysql:host=loca...', 'root', '111111')
+#1 /Users/sunqibo/www/my/myFramework/app/controllers/HomeController.php(13): Article::first()
+#2 /Users/sunqibo/www/my/myFramework/vendor/noahbuscher/macaw/Macaw.php(123): HomeController->home()
+#3 /Users/sunqibo/www/my/myFramework/config/routes.php(14): NoahBuscher\Macaw\Macaw::dispatch()
+#4 /Users/sunqibo/www/my/myFramework/public/index.php(8): require('/Users/sunqibo/...')
+#5 {main}
+  thrown
+/Users/sunqibo/www/my/myFramework/app/models/Article.php:16
+***********************************

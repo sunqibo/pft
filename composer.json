@@ -1,0 +1,16 @@
+{
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*",
+    "twig/twig": "^2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models"
+    ],
+    "psr-4":{
+      "library\\View\\":"library/View"
+    }
+  }
+}
