@@ -1,13 +1,11 @@
 <?php
+namespace library\View;
+
 /**
  * User: sunqibo
  * Date: 2018/10/18 上午10:32
  * Desc:
  */
-
-namespace library\View;
-
-
 class View
 {
     static $telPath = array();
@@ -31,7 +29,7 @@ class View
         }
         self::$telPath['file_name'] = '/'.$filename . '.html';
         self::$telPath['file_path'] = APP . '/views/' . $filename . '.html';
-        self::$telPath['twig_path'] = APP . '/views/';
+        self::$telPath['twig_path'] = APP . '/views';
 //        echo "<pre>";
 //        print_r(self::$telPath);
 //        exit;

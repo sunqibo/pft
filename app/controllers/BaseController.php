@@ -43,13 +43,14 @@ class BaseController
         foreach ($ary as $k => $v) {
             $this->assign($k, $v);
         }
+//        echo "<pre>";
+//        print_r($telPath);
+//        exit;
         if (is_file($telPath['file_path'])) {
             $loader = new Twig_Loader_Filesystem($telPath['twig_path']);
             $twig = new Twig_Environment($loader, array(
-                'cache' => MF . '/cache/views',
+//                'cache' => MF . '/cache/views',
             ));
-//            $template = $twig->load('/home/'.$telPath['file_name']);
-//            $template->display($this->assign ? $this->assign : '');
             echo $twig->render($telPath['file_name'], $this->assign ? $this->assign : '');
         } else {
             echo "error";

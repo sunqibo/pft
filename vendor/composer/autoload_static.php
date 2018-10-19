@@ -16,6 +16,7 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'l' => 
         array (
             'library\\View\\' => 13,
+            'library\\PHPMailer\\' => 18,
         ),
         'T' => 
         array (
@@ -31,6 +32,7 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'N' => 
         array (
@@ -53,6 +55,10 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'library\\View\\' => 
         array (
             0 => __DIR__ . '/../..' . '/library/View',
+        ),
+        'library\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/library/PHPMailer',
         ),
         'Twig\\' => 
         array (
@@ -77,6 +83,10 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'NoahBuscher\\Macaw\\' => 
         array (
@@ -123,6 +133,7 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'IndexController' => __DIR__ . '/../..' . '/app/controllers/IndexController.php',
+        'TestMail' => __DIR__ . '/../..' . '/app/controllers/TestMail.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

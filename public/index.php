@@ -15,7 +15,7 @@ define('APP', MF . '/app');
 require '../vendor/autoload.php';
 
 // 异常捕获
-require '../library/Exception/Exception.php';
+//require '../library/Exception/Exception.php';
 
 // Eloquent ORM
 $capsule = new Capsule;

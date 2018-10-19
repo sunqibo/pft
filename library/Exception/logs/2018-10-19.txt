@@ -1,0 +1,167 @@
+
+***********************************
+2018-10-19 10:03:59
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:02
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:34
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:41
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:42
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:56
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:04:57
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:05:16
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:05:48
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:06:58
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:06:59
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/cache/views/d6/d66609c5d4946d144a1470d7f7ad6723e75ce9c533ead73b7755b8160e77c35f.php(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:07:07
+error-level 1 : Uncaught Twig_Error_Loader: Unable to find template "..layout.html" (looked into: /Users/sunqibo/www/my/ptf/app/views) in "/home/home.html" at line 1. in /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('..layout.html')
+#1 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('..layout.html')
+#2 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('..layout.html')
+#3 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('..layout.html', NULL)
+#4 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(15): Twig_Template->loadTemplate('..layout.html', '/home/home.html', 1)
+#5 /Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Environment.php(397): __TwigTemplate
+/Users/sunqibo/www/my/ptf/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+***********************************
+
+***********************************
+2018-10-19 10:08:37
+error-level 1 : Uncaught Error: Class 'TestMail' not found in /Users/sunqibo/www/my/ptf/vendor/noahbuscher/macaw/Macaw.php:120
+Stack trace:
+#0 /Users/sunqibo/www/my/ptf/config/routes.php(15): NoahBuscher\Macaw\Macaw::dispatch()
+#1 /Users/sunqibo/www/my/ptf/public/index.php(26): require('/Users/sunqibo/...')
+#2 {main}
+  thrown
+/Users/sunqibo/www/my/ptf/vendor/noahbuscher/macaw/Macaw.php:120
+***********************************
