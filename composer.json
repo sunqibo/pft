@@ -12,7 +12,8 @@
     ],
     "psr-4":{
       "library\\View\\":"library/View",
-      "library\\PHPMailer\\":"library/PHPMailer"
+      "library\\PHPMailer\\":"library/PHPMailer",
+      "library\\MyRedis\\":"library/MyRedis"
     }
   }
 }

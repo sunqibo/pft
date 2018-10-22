@@ -10,5 +10,4 @@ return array(
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
     'IndexController' => $baseDir . '/app/controllers/IndexController.php',
-    'TestMail' => $baseDir . '/app/controllers/TestMail.php',
 );

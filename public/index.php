@@ -11,15 +11,21 @@ define('MF', substr(getcwd(), 0, -7));
 // MVC目录
 define('APP', MF . '/app');
 
+// config目录
+define('CONFIG', MF . '/config');
+
 // 自动载入
 require '../vendor/autoload.php';
 
 // 异常捕获
 //require '../library/Exception/Exception.php';
 
+//数据库配置文件
+require CONFIG.'/database.php';
+
 // Eloquent ORM
 $capsule = new Capsule;
-$capsule->addConnection(require '../config/database.php');
+$capsule->addConnection(DATABASE_CONFIG['mysql']);
 $capsule->bootEloquent();
 
 // 路由

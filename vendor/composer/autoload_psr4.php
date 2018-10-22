@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'library\\View\\' => array($baseDir . '/library/View'),
     'library\\PHPMailer\\' => array($baseDir . '/library/PHPMailer'),
+    'library\\MyRedis\\' => array($baseDir . '/library/MyRedis'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),

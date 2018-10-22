@@ -1,5 +1,6 @@
 <?php
 use library\PHPMailer\MyPHPMailer;
+use library\MyRedis\MyRedis;
 
 /**
  * Created by PhpStorm.
@@ -12,7 +13,12 @@ class HomeController extends BaseController
     public function home()
     {
         $row = Article::first()->toArray();
+//        $redis = MyRedis::init();
+//        $redis->set('data',$row);
+//        $data = $redis->get('data');
+//        echo "<pre>";
 //        print_r($row);
+//        exit;
         $this->render('home.home', array('data' => $row));
     }
 

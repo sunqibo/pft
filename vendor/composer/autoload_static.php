@@ -17,6 +17,7 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         array (
             'library\\View\\' => 13,
             'library\\PHPMailer\\' => 18,
+            'library\\MyRedis\\' => 16,
         ),
         'T' => 
         array (
@@ -59,6 +60,10 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'library\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/../..' . '/library/PHPMailer',
+        ),
+        'library\\MyRedis\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/library/MyRedis',
         ),
         'Twig\\' => 
         array (
@@ -133,7 +138,6 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'IndexController' => __DIR__ . '/../..' . '/app/controllers/IndexController.php',
-        'TestMail' => __DIR__ . '/../..' . '/app/controllers/TestMail.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
