@@ -64,9 +64,15 @@ class MyPHPMailer
         if (!empty($this->mailInfo['addAttachment'])) {
             if (is_array($this->mailInfo['addAttachment'])) {
                 foreach ($this->mailInfo['addAttachment'] as $v) {
+                    if (!is_file($v)) {
+                        throw new \Exception($v . ' not find');
+                    }
                     $this->mail['addAttachment'][] = $v;
                 }
             } else {
+                if (!is_file($this->mailInfo['addAttachment'])) {
+                    throw new \Exception($this->mailInfo['addAttachment'] . ' not find');
+                }
                 $this->mail['addAttachment'][] = $this->mailInfo['addAttachment'];
             }
         }
