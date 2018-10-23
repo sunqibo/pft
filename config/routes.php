@@ -4,6 +4,11 @@ use NoahBuscher\Macaw\Macaw;
 
 Macaw::get('', 'HomeController@home');
 Macaw::get('testMail', 'HomeController@testMail');
+Macaw::get('redis','RedisDemoController@index');
+Macaw::get('callback','RedisDemoController@callback');
+
+
+
 Macaw::get('fuck', function () {
     echo "成功！";
 });

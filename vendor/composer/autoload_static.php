@@ -138,6 +138,7 @@ class ComposerStaticInit532bae4b6d76cdf3b790cce62ed26a47
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'IndexController' => __DIR__ . '/../..' . '/app/controllers/IndexController.php',
+        'RedisDemoController' => __DIR__ . '/../..' . '/app/controllers/RedisDemoController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
